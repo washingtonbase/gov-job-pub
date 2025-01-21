@@ -88,6 +88,6 @@ Docker 自定义容器部署
 
 ## 加我吧
 
-微信 dringking-soda
+微信 drinking-soda
 
 我将全力帮你把前后端部分还有部署一条龙全程搞定。所有经验，知无不言。

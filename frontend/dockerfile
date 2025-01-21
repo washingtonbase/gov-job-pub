@@ -1,0 +1,13 @@
+FROM python
+
+# 设置工作目录
+WORKDIR /app
+
+# 将 out 目录复制到镜像中
+COPY out/ ./out/
+
+# 暴露端口
+EXPOSE 3000
+
+# 启动静态文件服务器
+CMD ["python", "-m", "http.server", "3000", "--directory", "out"]
